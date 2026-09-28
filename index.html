@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aseel Al-Ostath | Portfolio</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Aseel <span>Al-Ostath</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#showcase">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 1. Hero / Welcome Section -->
+    <section id="hero" class="hero-section">
+        <h1 class="hero-title">Welcome to <span>My Portfolio</span></h1>
+        <p class="hero-subtitle">Where creative innovation seamlessly blends with advanced software engineering solutions.</p>
+        <a href="#showcase" class="btn">Explore My Work <i class="fas fa-arrow-right"></i></a>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-img-box">
+
+             <div class="about-placeholder">
+              <img src="images/Profile Photo.jpeg" alt="Aseel Profile Photo" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+             </div>
+             
+                <!-- <div class="about-placeholder">
+                    <i class="fas fa-user-circle fa-4x" style="margin-bottom:10px;"></i>
+                    <span>Profile Photo</span>
+                </div> -->
+            </div>
+
+            <div class="about-text">
+                <h3>Hello, I am <br><span>Aseel Al-Ostath</span></h3>
+                <p>
+                    Management Information Systems (MIS) graduate from Al-Aqsa University. I combine an analytical data management vision with strong technical skills in web and mobile app development, along with a passion for visual creativity through UI/UX design and graphic design.
+                </p>
+                <p>
+                    I continuously strive to deliver integrated solutions starting from data analysis and superior user experience design, leading to high-performance, responsive applications using Flutter and modern web technologies.
+                </p>
+                <a href="#contact" class="btn btn-small">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section — reference layout with one added Photoshop service -->
+    <section id="services" class="services-section" aria-labelledby="services-title">
+        <div class="services-layout">
+            <div class="services-heading reveal-on-scroll">
+                <span class="services-eyebrow">HOW I CAN HELP</span>
+                <h2 id="services-title" class="services-title">Let’s build<br><span>something meaningful.</span></h2>
+                <p class="services-subtitle">From first idea to polished digital product.</p>
+                <a href="#contact" class="btn services-cta">Start a project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card reveal-on-scroll">
+                    <div class="service-icon" aria-hidden="true"><i class="fas fa-bezier-curve"></i></div>
+                    <div class="service-copy"><span class="service-number">01</span><h3>Product &amp; UI/UX Design</h3><p>User-centered interfaces that look beautiful and work.</p></div>
+                    <a class="service-link" href="#contact" aria-label="Learn more about UI/UX Design"><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="service-card reveal-on-scroll">
+                    <div class="service-icon" aria-hidden="true"><i class="fas fa-palette"></i></div>
+                    <div class="service-copy"><span class="service-number">04</span><h3>Graphic Design</h3><p>Creative visual designs, branding, and social content using Adobe Photoshop.</p></div>
+                    <a class="service-link" href="#contact" aria-label="Learn more about Graphic Design"><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="service-card reveal-on-scroll">
+                    <div class="service-icon" aria-hidden="true"><i class="fas fa-code"></i></div>
+                    <div class="service-copy"><span class="service-number">02</span><h3>Web Development</h3><p>Fast, scalable websites built for real business goals.</p></div>
+                    <a class="service-link" href="#contact" aria-label="Learn more about Web Development"><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+                <article class="service-card reveal-on-scroll">
+                    <div class="service-icon" aria-hidden="true"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="service-copy"><span class="service-number">03</span><h3>Mobile Applications</h3><p>Thoughtful mobile experiences, from concept to launch.</p></div>
+                    <a class="service-link" href="#contact" aria-label="Learn more about Mobile Applications"><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات والخبرات -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        
+        <div class="skills-grid">
+            <!-- 1. UI/UX Design -->
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-object-group"></i></div>
+                <h4>UI/UX Design</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Wireframing & Prototyping</li>
+                    <li><i class="fas fa-check-circle"></i> Figma & User Research</li>
+                    <li><i class="fas fa-check-circle"></i> Interactive Mobile & Web UI</li>
+                </ul>
+            </div>
+
+            <!-- 2. Graphic Design -->
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                <h4>Graphic Design</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Adobe Photoshop</li>
+                    <li><i class="fas fa-check-circle"></i> Visual Identity & Branding</li>
+                    <li><i class="fas fa-check-circle"></i> Social Media & Ad Graphics</li>
+                </ul>
+            </div>
+
+            <!-- 3. Mobile App Development -->
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h4>Mobile App Development</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Flutter & Dart</li>
+                    <li><i class="fas fa-check-circle"></i> Native Android Apps</li>
+                    <li><i class="fas fa-check-circle"></i> Cross-Platform Solutions</li>
+                </ul>
+            </div>
+
+            <!-- 4. Front-End Web Development -->
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h4>Front-End Web Dev</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> HTML5 / CSS3 / JavaScript</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive Web Design</li>
+                    <li><i class="fas fa-check-circle"></i> Bootstrap & Modern Frameworks</li>
+                </ul>
+            </div>
+
+            <!-- 5. Digital Marketing -->
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-bullhorn"></i></div>
+                <h4>Digital Marketing</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Content Strategy</li>
+                    <li><i class="fas fa-check-circle"></i> Social Media Campaigns</li>
+                    <li><i class="fas fa-check-circle"></i> Brand Growth & Analytics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- 3. Dynamic Portfolio Showcase -->
+    <section id="showcase">
+        <div class="showcase-header">
+            <h2 class="section-title">Portfolio Showcase</h2>
+            <p class="showcase-sub">
+                Explore my journey through featured projects, professional certifications, and technical expertise.
+            </p>
+            
+            <div class="tabs-container">
+                <button class="tab-btn active" onclick="openTab(event, 'projects-tab')">
+        <i class="fas fa-code"></i> Projects
+    </button>
+                <button class="tab-btn" onclick="openTab(event, 'certificates-tab')">
+                    <i class="fas fa-certificate"></i> Certificates
+                </button>
+                <button class="tab-btn" onclick="openTab(event, 'techstack-tab')">
+                    <i class="fas fa-layer-group"></i> Tech Stack
+                </button>
+            </div>
+        </div>
+
+      <!-- TAB 1: Projects -->
+<div id="projects-tab" class="tab-content active">
+    <div class="projects-grid">
+
+        <!-- Project 1: Aqsa Store (Flutter) -->
+        <div class="project-card">
+            <div class="project-img">
+                <i class="fas fa-store fa-3x"></i>
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Flutter / Mobile</span>
+                <h4>Aqsa Store App</h4>
+                <p>تطبيق متجر إلكتروني للهواتف المحمولة متكامل ومبني باستخدام Flutter و Dart.</p>
+                <div class="project-links">
+                    <a href="https://github.com/asalostath-design/aqsa_store_project" target="_blank" class="btn-demo" rel="noopener noreferrer">
+                        Live Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <button class="btn-details" onclick="openModal('modal-aqsa-store')">
+                        Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2: Sneaker Store (Flutter) -->
+        <div class="project-card">
+            <div class="project-img">
+                <i class="fas fa-shoe-prints fa-3x"></i>
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Flutter / Mobile</span>
+                <h4>Sneaker Store App</h4>
+                <p>تطبيق تسوق أحذية عصري بتصميم جذاب وواجهات تفاعلية سلسة باستخدام Flutter.</p>
+                <div class="project-links">
+                    <a href="https://github.com/asalostath-design/sneaker_store_project" target="_blank" class="btn-demo" rel="noopener noreferrer">
+                        Live Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <button class="btn-details" onclick="openModal('modal-sneaker-store')">
+                        Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3: Social Media & Branding Showcase -->
+        <div class="project-card">
+            <div class="project-img">
+                <i class="fas fa-palette fa-3x"></i>
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Graphic Design</span>
+                <h4>Graphic Design Showcase</h4>
+                <p>تصاميم إعلانية مبتكرة وهوية بصرية وبوسترات تم إعدادها باستخدام Adobe Photoshop.</p>
+                <div class="project-links">
+                    <a href="https://www.behance.net/aseel-alostath" target="_blank" class="btn-demo" rel="noopener noreferrer">
+                        Behance <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <button class="btn-details" onclick="openModal('modal-graphic-design')">
+                        View Designs <i class="fas fa-images"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4: Sanad Platform -->
+        <div class="project-card">
+            <div class="project-img">
+                <i class="fas fa-heartbeat fa-3x"></i>
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Web Development</span>
+                <h4>منصة سند للدعم النفسي</h4>
+                <p>منصة إلكترونية لتقديم الاستشارات والدعم النفسي صُممت بأسلوب تفاعلي متكامل.</p>
+                <div class="project-links">
+                    <a href="https://github.com/asalostath-design/DO." target="_blank" class="btn-demo" rel="noopener noreferrer">
+                        Live Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <button class="btn-details" onclick="openModal('modal-sanad')">
+                       Details <i class="fas font-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 5: Store Pro Web App -->
+        <div class="project-card">
+            <div class="project-img">
+                <i class="fas fa-shopping-cart fa-3x"></i>
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Full Stack</span>
+                <h4>Store Pro Web App</h4>
+                <p>تطبيق متجر إلكتروني يتيح عرض المنتجات وإدارتها بالتكامل مع قاعدة بيانات.</p>
+                <div class="project-links">
+                    <a href="https://github.com/asalostath-design/store-pro" target="_blank" class="btn-demo" rel="noopener noreferrer">
+                        Live Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <button class="btn-details" onclick="openModal('modal-store-pro')">
+                     Details <i class="fas font-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= MODALS (تفاصيل ومعرض المشاريع) ================= -->
+
+
+
+<!-- Modal 1: Aqsa Store -->
+<div id="modal-aqsa-store" class="project-modal">
+    <div class="modal-content modal-large">
+        <span class="modal-close" onclick="closeModal('modal-aqsa-store')">&times;</span>
+        <h3>Aqsa Store App</h3>
+        <p class="modal-desc">تطبيق متجر إلكتروني متكامل لمستخدمي الهواتف الذكية. يركز التطبيق على تنظيم أقسام المنتجات، تجربة المستخدم السلسة، وإدارة السلة والواجهات التفاعلية بـ Flutter و Dart.</p>
+        
+        <!-- معرض صور شاشات التطبيق -->
+        <div class="app-screenshots-grid">
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-1.jpeg" alt="Aqsa Store Screen 1" onerror="this.src='https://via.placeholder.com/300x600/ff6900/ffffff?text=App+Screen+1'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-2.jpeg" alt="Aqsa Store Screen 2" onerror="this.src='https://via.placeholder.com/300x600/1a1a1a/ffffff?text=App+Screen+2'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-3.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-4.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-5.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-6.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-7.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-8.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-9.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Aqsa Store/aqsa-10.jpeg" alt="Aqsa Store Screen 3" onerror="this.src='https://via.placeholder.com/300x600/2a2a3d/ffffff?text=App+Screen+3'">
+            </div>
+        </div>
+
+        <div class="modal-footer-row" style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+            <div class="modal-tags">
+                <span>Flutter</span> <span>Dart</span> <span>Mobile Development</span> <span>Android Studio</span>
+            </div>
+            <a href="https://github.com/asalostath-design/aqsa_store_project" target="_blank" class="modal-action-btn" rel="noopener noreferrer">
+                عرض المشروع على GitHub <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Modal 2: Sneaker Store App -->
+<div id="modal-sneaker-store" class="project-modal">
+    <div class="modal-content modal-large">
+        <span class="modal-close" onclick="closeModal('modal-sneaker-store')">&times;</span>
+        <h3>Sneaker Store App</h3>
+        <p class="modal-desc">تطبيق متجر أحذية عصري للهواتف المحمولة مبني باستخدام Flutter و Dart.</p>
+        
+        <!-- معرض صور شاشات المشروع -->
+        <div class="app-screenshots-grid">
+            <div class="app-shot-item">
+                <img src="images/Sneaker Store App/sneaker-1.png" alt="Sneaker Store Screen 1" onerror="this.src='https://via.placeholder.com/600x350/1a1a1a/ffffff?text=Sneaker+Store+1'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sneaker Store App/sneaker-2.png" alt="Sneaker Store Screen 2" onerror="this.src='https://via.placeholder.com/600x350/ff6900/ffffff?text=Sneaker+Store+2'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sneaker Store App/sneaker-3.png" alt="Sneaker Store Screen 3" onerror="this.src='https://via.placeholder.com/600x350/2a2a3d/ffffff?text=Sneaker+Store+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sneaker Store App/sneaker-4.png" alt="Sneaker Store Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sneaker+Store+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sneaker Store App/sneaker-5.png" alt="Sneaker Store Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sneaker+Store+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sneaker Store App/sneaker-6.png" alt="Sneaker Store Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sneaker+Store+4'">
+            </div>
+        </div>
+
+        <div class="modal-footer-row">
+            <div class="modal-tags">
+                <span>Flutter</span> <span>Dart</span> <span>Mobile UI</span>
+            </div>
+            <a href="https://github.com/asalostath-design" target="_blank" class="modal-action-btn" rel="noopener noreferrer">
+                عرض المشروع على GitHub <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 3: Graphic Design Gallery (معرض التصاميم المقسّم) -->
+<div id="modal-graphic-design" class="project-modal">
+    <div class="modal-content modal-large">
+        <span class="modal-close" onclick="closeModal('modal-graphic-design')">&times;</span>
+        <h3>Graphic Design Gallery</h3>
+        <p class="modal-desc">معرض التصاميم والإعلانات المصممة ببرنامج Adobe Photoshop.</p>
+
+        <!-- الصفحة الأولى: أول 6 تصاميم -->
+        <div id="design-page-1" class="gallery-page active">
+            <div class="design-gallery-grid">
+                <div class="gallery-item"><img src="images/furniture/الاعلان الاول.jpg" alt="Design 1" onerror="this.src='https://via.placeholder.com/400x400/ff6900/ffffff?text=Post+1'"></div>
+                <div class="gallery-item"><img src="images/furniture/الاعلان التاني.jpg" alt="Design 2" onerror="this.src='https://via.placeholder.com/400x400/1a1a1a/ffffff?text=Post+2'"></div>
+                <div class="gallery-item"><img src="images/furniture/الاعلان التالت.jpg" alt="Design 3" onerror="this.src='https://via.placeholder.com/400x400/2a2a3d/ffffff?text=Post+3'"></div>
+                <div class="gallery-item"><img src="images/furniture/الاعلان الرابع.jpg" alt="Design 4" onerror="this.src='https://via.placeholder.com/400x400/444444/ffffff?text=Post+4'"></div>
+                <div class="gallery-item"><img src="images/furniture/الاعلان الخامس.jpg" alt="Design 5" onerror="this.src='https://via.placeholder.com/400x400/333333/ffffff?text=Post+5'"></div>
+                <div class="gallery-item"><img src="images/furniture/الاعلان السادس.jpg" alt="Design 6" onerror="this.src='https://via.placeholder.com/400x400/666666/ffffff?text=Post+6'"></div>
+            </div>
+        </div>
+
+        <!-- الصفحة الثانية: 6 تصاميم أخرى -->
+        <div id="design-page-2" class="gallery-page">
+            <div class="design-gallery-grid">
+                <div class="gallery-item"><img src="images/Burger/الاعلان 1.jpg" alt="Design 7" onerror="this.src='https://via.placeholder.com/400x400/888888/ffffff?text=Post+7'"></div>
+                <div class="gallery-item"><img src="images/Burger/الاعلان 2.jpg" alt="Design 8" onerror="this.src='https://via.placeholder.com/400x400/999999/ffffff?text=Post+8'"></div>
+                <div class="gallery-item"><img src="images/Burger/الاعلان 3.jpg" alt="Design 9" onerror="this.src='https://via.placeholder.com/400x400/aaaaaa/ffffff?text=Post+9'"></div>
+                <div class="gallery-item"><img src="images/Burger/الاعلان 4.jpg" alt="Design 10" onerror="this.src='https://via.placeholder.com/400x400/bbbbbb/ffffff?text=Post+10'"></div>
+                <div class="gallery-item"><img src="images/Burger/الاعلان 5.jpg" alt="Design 11" onerror="this.src='https://via.placeholder.com/400x400/cccccc/ffffff?text=Post+11'"></div>
+                <div class="gallery-item"><img src="images/Burger/الاعلان 6.jpg" alt="Design 12" onerror="this.src='https://via.placeholder.com/400x400/dddddd/ffffff?text=Post+12'"></div>
+            </div>
+        </div>
+
+        <!-- الصفحة الثالثة -->
+<div id="design-page-3" class="gallery-page">
+    <div class="design-gallery-grid">
+        <div class="gallery-item"><img src="images/hours/البوست 1.jpg" alt="Design 13" onerror="this.src='https://via.placeholder.com/400x400/777777/ffffff?text=Post+13'"></div>
+        <div class="gallery-item"><img src="images/hours/البوست 2.jpg" alt="Design 14" onerror="this.src='https://via.placeholder.com/400x400/888888/ffffff?text=Post+14'"></div>
+        <div class="gallery-item"><img src="images/hours/البوست 3.jpg" alt="Design 15" onerror="this.src='https://via.placeholder.com/400x400/999999/ffffff?text=Post+15'"></div>
+        <div class="gallery-item"><img src="images/hours/البوست 4.jpg" alt="Design 16" onerror="this.src='https://via.placeholder.com/400x400/aaaaaa/ffffff?text=Post+16'"></div>
+        <div class="gallery-item"><img src="images/hours/البوست 5.jpg" alt="Design 17" onerror="this.src='https://via.placeholder.com/400x400/bbbbbb/ffffff?text=Post+17'"></div>
+        <div class="gallery-item"><img src="images/hours/البوست 6.jpg" alt="Design 18" onerror="this.src='https://via.placeholder.com/400x400/cccccc/ffffff?text=Post+18'"></div>
+    </div>
+</div>
+
+<!-- الصفحة الرابعة -->
+<div id="design-page-4" class="gallery-page">
+    <div class="design-gallery-grid">
+        <div class="gallery-item"><img src="images/Pizza/بوست 1.jpg" alt="Design 19" onerror="this.src='https://via.placeholder.com/400x400/555555/ffffff?text=Post+19'"></div>
+        <div class="gallery-item"><img src="images/Pizza/بوست 2.jpg" alt="Design 20" onerror="this.src='https://via.placeholder.com/400x400/666666/ffffff?text=Post+20'"></div>
+        <div class="gallery-item"><img src="images/Pizza/بوست 3.jpg" alt="Design 21" onerror="this.src='https://via.placeholder.com/400x400/777777/ffffff?text=Post+21'"></div>
+        <div class="gallery-item"><img src="images/Pizza/بوست 4.jpg" alt="Design 22" onerror="this.src='https://via.placeholder.com/400x400/888888/ffffff?text=Post+22'"></div>
+        <div class="gallery-item"><img src="images/Pizza/بوست 5.jpg" alt="Design 23" onerror="this.src='https://via.placeholder.com/400x400/999999/ffffff?text=Post+23'"></div>
+        <div class="gallery-item"><img src="images/Pizza/بوست 6.jpg" alt="Design 24" onerror="this.src='https://via.placeholder.com/400x400/aaaaaa/ffffff?text=Post+24'"></div>
+    </div>
+</div>
+
+<!-- الصفحة الخامسة -->
+<div id="design-page-5" class="gallery-page">
+    <div class="design-gallery-grid">
+        <div class="gallery-item"><img src="images/Dental clinic/بوست1.jpg" alt="Design 25" onerror="this.src='https://via.placeholder.com/400x400/333333/ffffff?text=Post+25'"></div>
+        <div class="gallery-item"><img src="images/Dental clinic/بوست 2.jpg" alt="Design 26" onerror="this.src='https://via.placeholder.com/400x400/444444/ffffff?text=Post+26'"></div>
+        <div class="gallery-item"><img src="images/Dental clinic/بوست 3.jpg" alt="Design 27" onerror="this.src='https://via.placeholder.com/400x400/555555/ffffff?text=Post+27'"></div>
+        <div class="gallery-item"><img src="images/Dental clinic/بوست 4.jpg" alt="Design 28" onerror="this.src='https://via.placeholder.com/400x400/666666/ffffff?text=Post+28'"></div>
+        <div class="gallery-item"><img src="images/Dental clinic/بوست 5.jpg" alt="Design 29" onerror="this.src='https://via.placeholder.com/400x400/777777/ffffff?text=Post+29'"></div>
+        <div class="gallery-item"><img src="images/Dental clinic/بوست 6.jpg" alt="Design 30" onerror="this.src='https://via.placeholder.com/400x400/888888/ffffff?text=Post+30'"></div>
+    </div>
+</div>
+
+        <!-- أزرار التنقل بين الصفحات -->
+<div class="gallery-pagination">
+    <button class="page-btn active" onclick="switchDesignPage(1, this)">1</button>
+    <button class="page-btn" onclick="switchDesignPage(2, this)">2</button>
+    <button class="page-btn" onclick="switchDesignPage(3, this)">3</button>
+    <button class="page-btn" onclick="switchDesignPage(4, this)">4</button>
+    <button class="page-btn" onclick="switchDesignPage(5, this)">5</button>
+</div>
+
+
+        <div class="modal-footer-row" style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+            <div class="modal-tags">
+                <span>Adobe Photoshop</span> <span>Social Media</span>
+            </div>
+            <a href="https://www.behance.net/aseel-alostath" target="_blank" class="modal-action-btn" rel="noopener noreferrer">
+                View All on Behance <i class="fab fa-behance"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal 3: Sanad Platform -->
+<div id="modal-sanad" class="project-modal">
+    <div class="modal-content modal-large">
+        <span class="modal-close" onclick="closeModal('modal-sanad')">&times;</span>
+        <h3>منصة سند للدعم النفسي</h3>
+        <p class="modal-desc">منصة إلكترونية لتقديم الاستشارات والدعم النفسي، تتضمن أقسام تفاعلية ومقالات توعوية صُممت الواجهات بـ HTML, CSS, Bootstrap, JavaScript.</p>
+        
+        <!-- معرض صور شاشات المنصة -->
+        <div class="app-screenshots-grid">
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-1.jpeg" alt="Sanad Platform Screen 1" onerror="this.src='https://via.placeholder.com/600x350/1a1a1a/ffffff?text=Sanad+Platform+1'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-2.jpeg" alt="Sanad Platform Screen 3" onerror="this.src='https://via.placeholder.com/600x350/2a2a3d/ffffff?text=Sanad+Platform+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-3.jpeg" alt="Sanad Platform Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sanad+Platform+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-4.jpeg" alt="Sanad Platform Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sanad+Platform+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-5.jpeg" alt="Sanad Platform Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sanad+Platform+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-6.jpeg" alt="Sanad Platform Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sanad+Platform+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Sanad Platform/sanad-7.jpeg" alt="Sanad Platform Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Sanad+Platform+4'">
+            </div>
+        </div>
+
+        <div class="modal-footer-row">
+            <div class="modal-tags">
+                <span>HTML5</span> <span>CSS3</span> <span>Bootstrap</span> <span>JavaScript</span> <span>jQuery</span>
+            </div>
+            <a href="https://github.com/asalostath-design" target="_blank" class="modal-action-btn" rel="noopener noreferrer">
+                عرض المشروع على GitHub <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal 4: Store Pro Web App -->
+<div id="modal-store-pro" class="project-modal">
+    <div class="modal-content modal-large">
+        <span class="modal-close" onclick="closeModal('modal-store-pro')">&times;</span>
+        <h3>Store Pro Web App</h3>
+        <p class="modal-desc">تطبيق متجر إلكتروني يتيح عرض المنتجات وإدارتها بالكامل مع قاعدة بيانات.</p>
+        
+        <!-- معرض صور شاشات التطبيق -->
+        <div class="app-screenshots-grid">
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-1.jpeg" alt="Store Pro Screen 1" onerror="this.src='https://via.placeholder.com/600x350/1a1a1a/ffffff?text=Store+Pro+1'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-2.jpeg" alt="Store Pro Screen 2" onerror="this.src='https://via.placeholder.com/600x350/ff6900/ffffff?text=Store+Pro+2'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-3.jpeg" alt="Store Pro Screen 3" onerror="this.src='https://via.placeholder.com/600x350/2a2a3d/ffffff?text=Store+Pro+3'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-4.jpeg" alt="Store Pro Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Store+Pro+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-5.jpeg" alt="Store Pro Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Store+Pro+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-6.jpeg" alt="Store Pro Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Store+Pro+4'">
+            </div>
+            <div class="app-shot-item">
+                <img src="images/Store Pro Web App/storepro-7.jpeg" alt="Store Pro Screen 4" onerror="this.src='https://via.placeholder.com/600x350/444444/ffffff?text=Store+Pro+4'">
+            </div>
+        </div>
+
+        <div class="modal-footer-row">
+            <div class="modal-tags">
+                <span>PHP</span> <span>MySQL</span> <span>Bootstrap</span> <span>JavaScript</span>
+            </div>
+            <a href="https://github.com/asalostath-design/store-pro" target="_blank" class="modal-action-btn" rel="noopener noreferrer">
+                عرض المشروع على GitHub <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+      <!-- TAB 2: Certificates Gallery -->
+    <div id="certificates-tab" class="tab-content">
+       <div class="cert-gallery">
+        
+          <div class="cert-image-card">
+            <img src="images/cert1.jpeg" alt="شهادة 1">
+            <p>اسم الشهادة الأولى</p>
+          </div>
+
+          <div class="cert-image-card">
+            <img src="images/cert2.jpeg" alt="شهادة 2">
+            <p>اسم الشهادة الثانية</p>
+          </div>
+
+          <div class="cert-image-card">
+            <img src="images/cert3.jpeg" alt="شهادة 3">
+            <p>اسم الشهادة الثالثة</p>
+          </div>
+
+          <div class="cert-image-card">
+            <img src="images/cert4.jpeg" alt="شهادة 4">
+            <p>اسم الشهادة الرابعة</p>
+        </div>
+
+    </div>
+</div>
+
+    <!-- TAB 3: Tech Stack (SVG Icons) -->
+<div id="techstack-tab" class="tab-content">
+    <div class="tech-grid">
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="tech-svg-icon">
+            <span>Flutter</span>
+        </div>
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" class="tech-svg-icon">
+            <span>Dart</span>
+        </div>
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="tech-svg-icon">
+            <span>Figma</span>
+        </div>
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="tech-svg-icon">
+            <span>HTML5</span>
+        </div>
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="tech-svg-icon">
+            <span>CSS3</span>
+        </div>
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-svg-icon">
+            <span>JavaScript</span>
+        </div>
+        <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" class="tech-svg-icon">
+            <span>Photoshop</span>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+
+   <!-- Contact Section -->
+<section id="contact" class="sec-contact-wrap">
+    <div class="sec-contact-box">
+        <span class="sec-contact-tag">— GET IN TOUCH —</span>
+        
+        <h2 class="sec-contact-title">
+            Let's Work<br>Together
+        </h2>
+        
+        <p class="sec-contact-desc">
+            Have a project in mind? I'd love to hear about it.<br>
+            Let's create something great together.
+        </p>
+
+        <!-- Direct Contact Details -->
+        <div class="sec-contact-details">
+            <div class="sec-contact-item">
+                <div class="sec-icon-box">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <a href="mailto:as.alostath@gmail.com" class="sec-detail-link">as.alostath@gmail.com</a>
+            </div>
+            
+            <div class="sec-contact-item">
+                <div class="sec-icon-box">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <a href="tel:+970595438285" class="sec-detail-link">+970 595 438 285</a>
+            </div>
+        </div>
+
+        <!-- Social Media Buttons -->
+        <div class="sec-contact-socials">
+            <a href="https://www.linkedin.com/in/aseel-alostath-b76687410" target="_blank" class="sec-social-btn" title="LinkedIn" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/asalostath-design" target="_blank" class="sec-social-btn" title="GitHub" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.behance.net/aseel-alostath" target="_blank" class="sec-social-btn" title="Behance" rel="noopener noreferrer">
+                <i class="fab fa-behance"></i>
+            </a>
+            <a href="mailto:as.alostath@gmail.com" class="sec-social-btn" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>Copyright © 2026 Aseel Sameer Al-Ostath. All Rights Reserved.</p>
+    </footer>
+
+
+
+
+
+
+ <!-- Interactive Scripts -->
+<script>
+    // Scroll reveal for the services section
+    document.addEventListener("DOMContentLoaded", function () {
+        var revealItems = document.querySelectorAll(".reveal-on-scroll");
+        if (!("IntersectionObserver" in window)) {
+            revealItems.forEach(function (item) { item.classList.add("is-visible"); });
+            return;
+        }
+        var revealObserver = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.16, rootMargin: "0px 0px -8% 0px" });
+        revealItems.forEach(function (item) { revealObserver.observe(item); });
+    });
+
+    // 1. Tab Switching Logic
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        
+        // Hide all tab content sections
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.remove("active");
+            tabcontent[i].classList.remove("active-content");
+        }
+        
+        // Remove active class from all buttons
+        tablinks = document.getElementsByClassName("tab-btn");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+        
+        // Show current tab and set active button
+        var currentTab = document.getElementById(tabName);
+        if (currentTab) {
+            currentTab.classList.add("active");
+            currentTab.classList.add("active-content");
+        }
+        
+        if (evt && evt.currentTarget) {
+            evt.currentTarget.classList.add("active");
+        }
+    }
+
+    // تفعيل تبويب المشاريع افتراضياً عند فتح الصفحة أو إعادة التحميل (Refresh)
+    document.addEventListener("DOMContentLoaded", function () {
+        var defaultTabBtn = document.querySelector('.tab-btn[onclick*="projects-tab"]');
+        if (defaultTabBtn) {
+            defaultTabBtn.click();
+        } else {
+            openTab(null, 'projects-tab');
+        }
+    });
+
+    // 2. Project Details Modal Logic (فتح وإغلاق تفاصيل المشاريع)
+    function openModal(modalId) {
+        var modal = document.getElementById(modalId);
+        if (modal) {
+            modal.classList.add("active");
+            document.body.style.overflow = "hidden"; // منع التمرير الخلفي
+        }
+    }
+
+    function closeModal(modalId) {
+        var modal = document.getElementById(modalId);
+        if (modal) {
+            modal.classList.remove("active");
+            document.body.style.overflow = "auto"; // إعادة التمرير
+        }
+    }
+
+    // إغلاق النافذة المنبثقة عند النقر خارجها
+    window.addEventListener("click", function(event) {
+        var modals = document.querySelectorAll(".project-modal");
+        modals.forEach(function(modal) {
+            if (event.target === modal) {
+                modal.classList.remove("active");
+                document.body.style.overflow = "auto";
+            }
+        });
+    });
+
+    function switchDesignPage(pageNumber, btnElement) {
+        // 1. إخفاء جميع صفحات الصور
+        var pages = document.querySelectorAll('.gallery-page');
+        pages.forEach(function(page) {
+            page.classList.remove('active');
+        });
+
+        // 2. إزالة التفعيل من جميع الأزرار
+        var buttons = document.querySelectorAll('.gallery-pagination .page-btn');
+        buttons.forEach(function(btn) {
+            btn.classList.remove('active');
+        });
+
+        // 3. إظهار الصفحة المطلوبة وتفعيل الزر المضغوط
+        var selectedPage = document.getElementById('design-page-' + pageNumber);
+        if (selectedPage) {
+            selectedPage.classList.add('active');
+        }
+        
+        if (btnElement) {
+            btnElement.classList.add('active');
+        }
+    }
+</script>
+
+</body>
+</html>
